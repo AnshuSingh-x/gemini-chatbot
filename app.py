@@ -17,7 +17,7 @@ st.set_page_config(page_title="Q&A Bot")
 st.header("AI ChatBot")
 
 input=st.text_input("Input: ",key="input")
-submit=st.button("Ask the question")
+submit=st.button("Submit")
 
 if submit:
     response=get_gemini_response(input)
